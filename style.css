@@ -1,3 +1,21 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.taichi {
+  width: 200px;
+  height: 200px;
+  animation-duration: 3s;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  margin: 100px auto;
+}
+
 .blackCircle {
   position: relative;
   background-color: black;
